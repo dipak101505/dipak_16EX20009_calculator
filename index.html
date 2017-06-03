@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<html>
+<head><title>Awaaz calculator </title>
+<meta charset="utf-8">
+<style type="text/css">
+table{border:3px solid blue;}
+tr{background-color:light grey;}
+td{border:3px dotted #c0c0c0;font-size:200%;text-align:center;width:80px}
+#ac{background-color:#008b8b;}
+.bred{background-color:#a9a9a9;}
+.clk{background-color:#8fbc8f;font-size=300%;font-weight:bold;color:white;border:3px solid green;}
+#resu{border:2px solid blue;
+position:absolute;top:250px;left:700px;font-size:250%;font-weight:bold;padding:7px;}
+#re{position:absolute;top:260px;left:850px;font-size:250%;font-weight:bold;color:red}
+#scr{border:4px solid grey;font-size=40px;font-weight:bold; width:200px; padding:5px; }
+</style>
+</head>
+<body>
+<h1>~>CALCULATOR:</h1>
+
+<p><h1><span id="scr"></span></h1></p>
+
+<p><strong>Operand 1:</strong><span id="o1"></span></p>
+<p><strong>Operator:</strong><span id="o"></span></p>
+<p><strong>Operand 2:</strong><span id="o2"></span></p>
+<strong id="resu">Result:</strong><span id="re"></span>
+<table>
+<tr>
+<td id="7" class="no">7</td>
+<td id="8" class="no">8</td>
+<td id="9" class="no">9</td>
+<td id="d" >/</td>
+<td id="del" class="no">del</td>
+<td id="ac">AC</td>
+</tr>
+<tr>
+<td id="4" class="no">4</td><td id="5" class="no">5</td><td id="6" class="no">6</td><td id="M">*</td><td id="F">!</td><td id="P">%</td>
+</tr><tr>
+<td id="1" class="no">1</td><td id="2" class="no">2</td><td id="3" class="no">3</td><td id="A">+</td><td id="res">1/x</td><td id="lcm">L.C.M</td>
+</tr><tr>
+<td id="0" class="no">0</td><td id="00" class="no">00</td><td id="." class="no">.</td><td id="S">-</td><td id="E">=</td><td id="hcf">H.C.F</td>
+</tr>
+</table>
+
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="selector.js"></script>
+<script type="text/javascript" src="calc.js"></script>
+</html>
